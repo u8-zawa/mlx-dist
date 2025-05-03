@@ -1,0 +1,10 @@
+[project]
+name = "mlx-dist-setup"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mlx-lm>=0.24.0",
+    "openmpi>=0.0.0",
+]
