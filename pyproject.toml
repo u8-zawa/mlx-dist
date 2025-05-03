@@ -1,5 +1,5 @@
 [project]
-name = "mlx-dist-setup"
+name = "mlx-dist"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"

@@ -164,7 +164,7 @@ wheels = [
 ]
 
 [[package]]
-name = "mlx-dist-setup"
+name = "mlx-dist"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
