@@ -11,9 +11,9 @@ export OMPI_MCA_btl_tcp_if_include=en0
 log "Running distributed MLX job ..."
 
 uv run mlx.launch \
-  --hostfile "$PROJECT_PATH/hosts.json" \
+  --hostfile "$PWD/hosts.json" \
   --backend mpi \
-  "$PROJECT_PATH/pipeline_generate.py" \
+  "$PWD/pipeline_generate.py" \
   --prompt "hello" \
   --temperature 0.0 \
   --max-tokens 1024 \
