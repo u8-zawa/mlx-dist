@@ -14,8 +14,9 @@ uv run mlx.launch \
   --hostfile "$PROJECT_PATH/hosts.json" \
   --backend mpi \
   "$PROJECT_PATH/pipeline_generate.py" \
-  --prompt "What number is larger 6.9 or 6.11?" \
-  --max-tokens 128 \
-  --model mlx-community/DeepSeek-Coder-V2-Lite-Instruct-4bit-mlx
+  --prompt "hello" \
+  --temperature 0.0 \
+  --max-tokens 1024 \
+  --model mlx-community/Qwen3-0.6B-4bit
 
 log "MLX run complete!"
