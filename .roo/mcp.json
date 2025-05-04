@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "mlx Docs": {
+      "url": "https://gitmcp.io/ml-explore/mlx",
+      "disabled": false,
+      "autoApprove": []
+    },
+    "mlx-lm Docs": {
+      "url": "https://gitmcp.io/ml-explore/mlx-lm",
+      "disabled": false,
+      "autoApprove": []
+    },
+    "uv Docs": {
+      "url": "https://gitmcp.io/astral-sh/uv",
+      "disabled": false,
+      "autoApprove": []
+    },
+    "ompi Docs": {
+      "url": "https://gitmcp.io/open-mpi/ompi",
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
